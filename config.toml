@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "http://localhost:1313/" 
+baseurl = "http://www.jeanrintoul.github.io/" 
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
