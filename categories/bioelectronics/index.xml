@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bioelectronics on Jean Rintoul</title>
+    <link>https://jeanrintoul.github.io/categories/bioelectronics/</link>
+    <description>Recent content in Bioelectronics on Jean Rintoul</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 01 Oct 2016 16:59:13 -0400</lastBuildDate>
+    <atom:link href="https://jeanrintoul.github.io/categories/bioelectronics/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Biosensors and the autonomic nervous system</title>
+      <link>https://jeanrintoul.github.io/blog/first/</link>
+      <pubDate>Sat, 01 Oct 2016 16:59:13 -0400</pubDate>
+      
+      <guid>https://jeanrintoul.github.io/blog/first/</guid>
+      <description>&lt;iframe src=&#34;https://docs.google.com/presentation/d/1kMzwjbkTotz8YHM-bCIRylFUALhEY1nITuIeZoq2KOE/embed?start=true&amp;loop=false&amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;480&#34; height=&#34;389&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/c-E6LX0UrGE&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
