@@ -103,20 +103,6 @@ Take advantage of these comparative difference in the economy and hire cheaper b
     </item>
     
     <item>
-      <title>Real time non blocking multi process GUI</title>
-      <link>https://jeanrintoul.github.io/blog/seventh/</link>
-      <pubDate>Mon, 03 Oct 2016 15:59:13 -0400</pubDate>
-      
-      <guid>https://jeanrintoul.github.io/blog/seventh/</guid>
-      <description>&lt;p&gt;I created a GUI that supports multi-processing to create a better IOT Test Bench. The need for this came up when my initial GUI blocked the serial port as it rendered in real-time, missing chunks of data and generally behaving slowly whenever intensive processing occurred. Later a threaded GUI was used, but that too blocks the serial stream during rendering due to Python&amp;rsquo;s GIL(in python only one thread can run at once so they are blocking too). An excellent article on threading and the GIL here: &lt;a href=&#34;http://www.dabeaz.com/python/UnderstandingGIL.pdf&#34;&gt;http://www.dabeaz.com/python/UnderstandingGIL.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The goal was to have a no issues GUI that could handle fast serial, mathy processing, and heavy rendering simultaneously. Most modern computers(even laptops) have multiple cores but they are not used by the interpreter, so why not use them and solve these problems.&lt;/p&gt;
-
-&lt;p&gt;This GUI represents the best of all worlds using multiprocessing whilst rendering complex graphics in real-time. Feel free to modify it for your own uses. Love to hear your thoughts and feedback.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>The only way forward: the argument for man-machine interfaces.</title>
       <link>https://jeanrintoul.github.io/blog/fifth/</link>
       <pubDate>Mon, 03 Oct 2016 15:59:13 -0400</pubDate>
