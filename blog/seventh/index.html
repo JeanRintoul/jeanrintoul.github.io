@@ -41,7 +41,7 @@
 
 
 <header class="row text-left title">
-  <h1 class="title">Embracing Death</h1>
+  <h1 class="title">Real time non blocking multi process GUI</h1>
 </header>
 <section id="category-pane" class="row meta">
   
@@ -62,27 +62,11 @@
 </section>
 <section id="content-pane" class="row">
   <div class="col-md-12 text-justify content">
-    <p><center>
-<iframe src="https://docs.google.com/presentation/d/18hRgzL7q7ZwtBRoBA-EeNuiFvFTp1SpPjqHObXLaTuk/embed?start=true&loop=false&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></center></p>
+    <p>I created a GUI that supports multi-processing to create a better IOT Test Bench. The need for this came up when my initial GUI blocked the serial port as it rendered in real-time, missing chunks of data and generally behaving slowly whenever intensive processing occurred. Later a threaded GUI was used, but that too blocks the serial stream during rendering due to Python&rsquo;s GIL(in python only one thread can run at once so they are blocking too). An excellent article on threading and the GIL here: <a href="http://www.dabeaz.com/python/UnderstandingGIL.pdf">http://www.dabeaz.com/python/UnderstandingGIL.pdf</a></p>
 
-<p>I wrote this presentation for a weekend futurist getaway. With so much focus currently on overcoming death, I thought I&rsquo;d take the naturalist perpective for a moment and look at the evolutionary advantages of death, while integrating machine learning models to support their claims.</p>
+<p>The goal was to have a no issues GUI that could handle fast serial, mathy processing, and heavy rendering simultaneously. Most modern computers(even laptops) have multiple cores but they are not used by the interpreter, so why not use them and solve these problems.</p>
 
-<p>I argue that death is necessary, and a futuristic version of death would be to die a little each day(and be born a little each day). Over a period of time all of you would die and a new you(including massive brain restructures and new limbs) would come into being.
-This is less resource intensive than the current natural &lsquo;starting from scratch&rsquo; system we have going, while escaping the other option of simply living forever and gaining complexity into eternity. It avoids overtraining, and enables evolution within life, instead of by creating new life.</p>
-
-<p>There were two major rebuttals of my arguments after I gave the talk and I discuss them here:</p>
-
-<ul>
-<li>Surely it&rsquo;s best to store all information you&rsquo;ve ever experienced instead of removing it from your being? More information is better yes?</li>
-</ul>
-
-<p>I disagree, better information is better. Too many regulations slow down innovation. There comes a point where information is no longer relevant. The individual doesn&rsquo;t need it and it&rsquo;s a burden to search and carry it with us. It&rsquo;s fine if the collective conscious stores an archived memory of it(historical documents in a library/internet) that we can refer to in deep searches, but to be maximally dynamic/agile both mentally and physically we should limit ourselves to on information storage. Garbage collection(DEATH) is important. Memory capacity is important and select memories from all history and now should be kept and weighted according to their importance and independence from time. The game of Go is complex with only 4 rules, if you can distill life to deep underlying principles that are timeless, you can afford shorter memory capacity. Processing power(focus of attention) is key to be able to do this.</p>
-
-<ul>
-<li>How do I ensure goodness in my future self or prevent the evil AI? I want to put in safeguards so that my future self is moral.</li>
-</ul>
-
-<p>I disagree and give up control to my future self - they can make moral decisions at the time. In the past it was the right thing to do to kill your own meat in order to survive, but in future this may be seen as evil. &lsquo;Goodness&rsquo; is subjective and must change with the environment one exists in.</p>
+<p>This GUI represents the best of all worlds using multiprocessing whilst rendering complex graphics in real-time. Feel free to modify it for your own uses. Love to hear your thoughts and feedback.</p>
 
   </div>
 </section>
@@ -95,11 +79,13 @@ This is less resource intensive than the current natural &lsquo;starting from sc
       TAGS: 
       
       
-      <a class="meta" href="https://jeanrintoul.github.io/tags/bioelectronics">BIOELECTRONICS</a>, 
+      <a class="meta" href="https://jeanrintoul.github.io/tags/iot">IOT</a>, 
       
-      <a class="meta" href="https://jeanrintoul.github.io/tags/death">DEATH</a>, 
+      <a class="meta" href="https://jeanrintoul.github.io/tags/python">PYTHON</a>, 
       
-      <a class="meta" href="https://jeanrintoul.github.io/tags/transhumanism">TRANSHUMANISM</a>
+      <a class="meta" href="https://jeanrintoul.github.io/tags/real-time">REAL TIME</a>, 
+      
+      <a class="meta" href="https://jeanrintoul.github.io/tags/technical">TECHNICAL</a>
       
       
     </h6>
@@ -113,9 +99,9 @@ This is less resource intensive than the current natural &lsquo;starting from sc
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'randomthoughts';
-    var disqus_identifier = 'https:\/\/jeanrintoul.github.io\/blog\/third\/';
-    var disqus_title = 'Embracing Death';
-    var disqus_url = 'https:\/\/jeanrintoul.github.io\/blog\/third\/';
+    var disqus_identifier = 'https:\/\/jeanrintoul.github.io\/blog\/seventh\/';
+    var disqus_title = 'Real time non blocking multi process GUI';
+    var disqus_url = 'https:\/\/jeanrintoul.github.io\/blog\/seventh\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -131,11 +117,13 @@ This is less resource intensive than the current natural &lsquo;starting from sc
 <section id="menu-pane" class="row menu text-center">
   
   
-  <span><a class="menu-item" href="https://jeanrintoul.github.io/blog/fourth/">&lt; prev | </a></span>
+  <span><a class="menu-item" href="https://jeanrintoul.github.io/blog/fifth/">&lt; prev | </a></span>
   
   
   <span><a class="menu-item" href="https://jeanrintoul.github.io/blog">blog</a></span>
   
+  
+  <span><a class="menu-item" href="https://jeanrintoul.github.io/blog/fourth/"> | next &gt;</a></span>
   
   
   <h4 class="text-center"><a class="menu-item" href="https://jeanrintoul.github.io/">home</a></h4>

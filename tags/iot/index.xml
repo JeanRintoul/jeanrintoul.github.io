@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iot on Jean Rintoul</title>
+    <link>https://jeanrintoul.github.io/tags/iot/</link>
+    <description>Recent content in Iot on Jean Rintoul</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 03 Oct 2016 15:59:13 -0400</lastBuildDate>
+    <atom:link href="https://jeanrintoul.github.io/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Real time non blocking multi process GUI</title>
+      <link>https://jeanrintoul.github.io/blog/seventh/</link>
+      <pubDate>Mon, 03 Oct 2016 15:59:13 -0400</pubDate>
+      
+      <guid>https://jeanrintoul.github.io/blog/seventh/</guid>
+      <description>&lt;p&gt;I created a GUI that supports multi-processing to create a better IOT Test Bench. The need for this came up when my initial GUI blocked the serial port as it rendered in real-time, missing chunks of data and generally behaving slowly whenever intensive processing occurred. Later a threaded GUI was used, but that too blocks the serial stream during rendering due to Python&amp;rsquo;s GIL(in python only one thread can run at once so they are blocking too). An excellent article on threading and the GIL here: &lt;a href=&#34;http://www.dabeaz.com/python/UnderstandingGIL.pdf&#34;&gt;http://www.dabeaz.com/python/UnderstandingGIL.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The goal was to have a no issues GUI that could handle fast serial, mathy processing, and heavy rendering simultaneously. Most modern computers(even laptops) have multiple cores but they are not used by the interpreter, so why not use them and solve these problems.&lt;/p&gt;
+
+&lt;p&gt;This GUI represents the best of all worlds using multiprocessing whilst rendering complex graphics in real-time. Feel free to modify it for your own uses. Love to hear your thoughts and feedback.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

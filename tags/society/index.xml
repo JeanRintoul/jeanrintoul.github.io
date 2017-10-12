@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Society on Jean Rintoul</title>
+    <link>https://jeanrintoul.github.io/tags/society/</link>
+    <description>Recent content in Society on Jean Rintoul</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 03 Oct 2016 15:59:13 -0400</lastBuildDate>
+    <atom:link href="https://jeanrintoul.github.io/tags/society/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The recruiting problem of Silicon Valley.</title>
+      <link>https://jeanrintoul.github.io/blog/sixth/</link>
+      <pubDate>Mon, 03 Oct 2016 15:59:13 -0400</pubDate>
+      
+      <guid>https://jeanrintoul.github.io/blog/sixth/</guid>
+      <description>&lt;p&gt;How do you attract your 20th employee at a start up in Silicon Valley?
+With huge salaries at established large companies, it&amp;rsquo;s hard to get good engineers to work at your start up when you raise a small seed round.&lt;/p&gt;
+
+&lt;p&gt;How can you build an early stage team in this highly competitive environment?&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Option 1(search overseas). This question was easier when scarcity kept people together, so of course one option is to recruit people from countries where there aren&amp;rsquo;t so many jobs, so you can find good people at lower rates. The ukraine, spain etc, where there are many great programmers or PhD graduates. Now however, you have a secondary problem which is team dynamics in different time zones and remote working.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Option 2(hire cheap people). This is a bad plan and will not get your product made. Go hard or go home. Unexperienced people are better when the company has a seeded set of highly experienced people who can be mentors, and the fresher people are willing to learn.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Option 3(inspire people). People should feel motivated to work on the problem you are trying to solve no matter what, but if its strong enough it&amp;rsquo;s also a way to recruit and keep good people. The trouble is getting to this stage where there is a clear lift off curve ahead.
+If it&amp;rsquo;s a really hot problem, good people will be attracted toward it if you can recruit loud enough. Then, you can give them a mixture of money and equity. You are asking each of your employees to make a similar bet on your company as you are, so the concept and execution better be good to keep them.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Option 4(pay fewer more experience people more). I&amp;rsquo;m a fan of this one, but the issue with it is VC&amp;rsquo;s often like to see large teams of impressive &amp;lsquo;sounding&amp;rsquo; people who aren&amp;rsquo;t necessarily that in reality. People selected for their apparent pedigree and not their innate awesomeness. A tricky slope - are you trying to impress the VC or make a great team? Ideally both, and the only way to do that is only keep those that are actually innately awesome.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A word on Team Dynamics.
+When only picking the &amp;lsquo;best&amp;rsquo; it can be easy to neglect diversity, or tendencies toward unconscious bias, but really, this is the only time in the company where you can really change it - at the start. So it&amp;rsquo;s more important in your selection of people than ever.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day I am advocating the near impossible - quality of hire is paramount, and this may be when you have least leverage to attract those people. It&amp;rsquo;s tough, but this is the challenge of creating a start up. If there is some way you can push it over the edge with 3 and 4, or already have viral growth ahead of hiring people, then great I think that is the path to getting the right people on board! Otherwise, right at the start, it&amp;rsquo;s going to be tough.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve seen putting a remote team together go wrong too. Despite how tempting it sounds, I think remote teams are some of the highest maintenance if you want to really build an integrated team where people work together. It&amp;rsquo;s tempting as prices are low for relatively experienced people but hard to generate team comraderie.&lt;/p&gt;
+
+&lt;p&gt;The future: A note on employer/employee loyalty: This appears to be decreasing, with employees only being present while they see immediate career growth and employers being more selfish. Who knows which came first, but it makes full-time employment slightly closer to being a consultant instead of a W-2. People complain about the rise of consulting meaning fewer people have healthcare covered by their employer, and consultants tend to be even more short term personal gain oriented than employees. Having too many consultants is terrible for a company, as it incentivizes people to just take money as fast as possible, without necessarily being aligned with long term incentives and shared goals. i.e. a consultant may accept work that&amp;rsquo;s not in the companies long term interest, as they want to make money, instead of advising the company against doing the work. Dangerous!&lt;/p&gt;
+
+&lt;p&gt;Land mines everywhere!&lt;/p&gt;
+
+&lt;p&gt;The future take 2: automate as many jobs as possible. This is a great solution, though again, VC&amp;rsquo;s and often large brands look for company headcount. It seems lots of heads in a room impresses people, but perhaps these are the wrong people?&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d automate as much as possible, have your top executives paid well and kept close, then have lots of fingers of potentially remote employees working on separate parts. The core team has to be strong and highly aligned and coordinated, otherwise this remote strategy goes wrong very easily.&lt;/p&gt;
+
+&lt;p&gt;In the future, I expect remote working software to improve though, making it an even more viable solution.  Augmented via VR perhaps..&lt;/p&gt;
+
+&lt;p&gt;The pressure to change the company structure at times and ways that don&amp;rsquo;t make for a good business&amp;hellip;. VCs often want to see certain hires, and expansion at various times, that don&amp;rsquo;t seem inline with what the company &amp;lsquo;actually&amp;rsquo; needs. Larger isn&amp;rsquo;t always better and forced sudden expansion can be devastating for quality of new hires and team culture and integration. However, the benefits of money are large as well. There is definitely a balance.&lt;/p&gt;
+
+&lt;p&gt;What can we learn from the open source model: Once people aren&amp;rsquo;t forced to work together, and are intentionally opting in, I believe  you can have a very different and positive work dynamic that is far more motivating.
+Stack overflow for instance, has a successful reputation system, people motivated by their desire to have status on the platform.&lt;/p&gt;
+
+&lt;p&gt;Can you get this voluntary positive environment with money involved? That&amp;rsquo;s unclear, as I think part of the positivity is people who contribute knowing they do it for free, and are giving it to other people in a highly visible environment. The work must be freely available and help the individuals in their personal career/relationships as much as possible.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

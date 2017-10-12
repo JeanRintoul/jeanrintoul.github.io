@@ -1,0 +1,13 @@
+/**
+ * Styles
+ */
+
+text.pyramid-label {
+	text-anchor: middle;
+	font-size: 1.0em;
+}
+
+#visualization {
+	height: 400;
+	width: 600;
+}

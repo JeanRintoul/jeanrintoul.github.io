@@ -39,5 +39,165 @@ This is less resource intensive than the current natural &amp;lsquo;starting fro
 </description>
     </item>
     
+    <item>
+      <title>Overcoming self-selection bias.</title>
+      <link>https://jeanrintoul.github.io/blog/fourth/</link>
+      <pubDate>Mon, 03 Oct 2016 15:59:13 -0400</pubDate>
+      
+      <guid>https://jeanrintoul.github.io/blog/fourth/</guid>
+      <description>&lt;p&gt;Self-selection bias is when those in power select those more like themselves, which in turn heightens their own power. It is what makes power and value different. It&amp;rsquo;s the historical lag of power dynamics. It&amp;rsquo;s why England&amp;rsquo;s sea fleets led to white supremicist ideals in the US today. It&amp;rsquo;s the reason for patriarchy, slavery of racially different groups, and international borders.&lt;/p&gt;
+
+&lt;p&gt;Once a group has power, those in power selects itself for its own preservation, seemingly becoming stronger and stronger - is it an unbeatable force? Potentially, yes.&lt;/p&gt;
+
+&lt;p&gt;As someone who is not in the power group, it is difficult to come to terms with being limited by these superficial laws. Should my skin color really matter when it comes to a contribution in mathematics? Right now, it does. Should my gender matter when being considered for a promotion? Apparently yes.&lt;/p&gt;
+
+&lt;p&gt;Free market argument:
+Is the most competitive solution is enabled when gender/race is valued ahead of results in a specific area. The answer is no, though this has to be tempered with the fact that money is available to those of the correct race and gender more readily to garner value from others.&lt;/p&gt;
+
+&lt;p&gt;ML Argument:
+&amp;lsquo; If you train on bad data you get bad results&amp;rsquo;. So if those in the highest power have biases not related to value, they will propagate them throughout the rest of the organization.&lt;/p&gt;
+
+&lt;p&gt;Long Term Argument: The problem with capitalism isn&amp;rsquo;t that money is evil, it&amp;rsquo;s that money doesn&amp;rsquo;t represent value.
+Power dynamics create lag in the economy, since power holds on for the sake of itself. Hence money and value are decoupled. If they were not decoupled capitalism would be a force for good.&lt;/p&gt;
+
+&lt;p&gt;Self-implosion Argument:
+Self-selection leaeds to large corporations so fat and full of themselves they are ineffective. We get governments that make poor choices, we get a general weakening of the self-selecting group because they are not selecting for value. They cannot be brought down by others, but they weaken themselves due to self-selection not value selection. This is a very slow effect however.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Personal Escape Routes:
+no 1.
+Power is proportional to money in our capitalistic society. So one escape route is to find a method to profit without dealing with other people who are afflicted with value biases.&lt;/p&gt;
+
+&lt;p&gt;no 2.:
+Take advantage of these comparative difference in the economy and hire cheaper better employees like women in India, etc. The problem with this is that there are communication gaps, and aspects of team comradery are missing. Perhaps VR can make remote workforces more effective?&lt;/p&gt;
+
+&lt;p&gt;Global Escape Routes:&lt;/p&gt;
+
+&lt;p&gt;Make communication over large distances and between languages easier.&lt;/p&gt;
+
+&lt;p&gt;Make the tools required to influence others be free. De-centralize media control.&lt;/p&gt;
+
+&lt;p&gt;Wikipedia and other free educational resources, the internet are enablers.&lt;/p&gt;
+
+&lt;p&gt;Access to online communities if individuals cannot meet in person.&lt;/p&gt;
+
+&lt;p&gt;The bottom rung of Maslow&amp;rsquo;s hierarchy should be made as close to, if not completely free. Health, food, shelter should also be &amp;lsquo;democratized&amp;rsquo;. It&amp;rsquo;s difficult to do this as these things do have time/effort cost to implement and why would you spend your life keeping up with people&amp;rsquo;s breeding choices to make more resource intensive beings?&lt;/p&gt;
+
+&lt;p&gt;Population control: only have planned children, when financially ready and able. No child marriages, and don&amp;rsquo;t have more than 2 children.&lt;/p&gt;
+
+&lt;p&gt;Extend health and longevity so people are productive longer, but don&amp;rsquo;t spend money on end of life care when death is imminent.&lt;/p&gt;
+
+&lt;p&gt;Net effect: fewer more educated, healthier people.&lt;/p&gt;
+
+&lt;p&gt;All of these changes are very long term, short term changes are the save yourself model only.&lt;/p&gt;
+
+&lt;p&gt;Minorities should help themselves, support each other.&lt;/p&gt;
+
+&lt;p&gt;Contribute to open projects that give value to others who have needs in the bottom of Maslow&amp;rsquo;s Hierarchy. In other words, let those in need help themselves and help each other.&lt;/p&gt;
+
+&lt;p&gt;&amp;ndash;&lt;/p&gt;
+
+&lt;p&gt;Power is the ability to get your own way.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Real time non blocking multi process GUI</title>
+      <link>https://jeanrintoul.github.io/blog/seventh/</link>
+      <pubDate>Mon, 03 Oct 2016 15:59:13 -0400</pubDate>
+      
+      <guid>https://jeanrintoul.github.io/blog/seventh/</guid>
+      <description>&lt;p&gt;I created a GUI that supports multi-processing to create a better IOT Test Bench. The need for this came up when my initial GUI blocked the serial port as it rendered in real-time, missing chunks of data and generally behaving slowly whenever intensive processing occurred. Later a threaded GUI was used, but that too blocks the serial stream during rendering due to Python&amp;rsquo;s GIL(in python only one thread can run at once so they are blocking too). An excellent article on threading and the GIL here: &lt;a href=&#34;http://www.dabeaz.com/python/UnderstandingGIL.pdf&#34;&gt;http://www.dabeaz.com/python/UnderstandingGIL.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The goal was to have a no issues GUI that could handle fast serial, mathy processing, and heavy rendering simultaneously. Most modern computers(even laptops) have multiple cores but they are not used by the interpreter, so why not use them and solve these problems.&lt;/p&gt;
+
+&lt;p&gt;This GUI represents the best of all worlds using multiprocessing whilst rendering complex graphics in real-time. Feel free to modify it for your own uses. Love to hear your thoughts and feedback.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The only way forward: the argument for man-machine interfaces.</title>
+      <link>https://jeanrintoul.github.io/blog/fifth/</link>
+      <pubDate>Mon, 03 Oct 2016 15:59:13 -0400</pubDate>
+      
+      <guid>https://jeanrintoul.github.io/blog/fifth/</guid>
+      <description>&lt;p&gt;The end of humanity and the rise of AI.&lt;/p&gt;
+
+&lt;p&gt;How should you respond to that which has surpassed you?
+Fight it, or join it.&lt;/p&gt;
+
+&lt;p&gt;The argument for man-machine interfaces.&lt;/p&gt;
+
+&lt;p&gt;Will you lose to that which has surpassed you?&lt;/p&gt;
+
+&lt;p&gt;It is the best thing to do. Recognition of a superior AI, then if you can&amp;rsquo;t beat them - join them. How though? Joining them is the only option, if you cannot destroy them. Right now most of humanity can&amp;rsquo;t even identify this is the problem, but instead is blaming foreigners taking their jobs, women joining the workforce, birth control and walls between countries. What a diversion from the actual problem?! What weak minded souls we are.&lt;/p&gt;
+
+&lt;p&gt;The problem is most of us are not as good as the best AI, and AI is evolving fast. It is faster than human evolution as we are trapped into our bodies.&lt;/p&gt;
+
+&lt;p&gt;We may not be able to compete, but, we may be able to join them if we work to meld ourselves into technology, including evolving our bodies. Surely there is remnant wisdom in the eons of biological evolution that will make for the strongest combined AI?&lt;/p&gt;
+
+&lt;p&gt;Technology is the enemy, not foreigners, women or african americans.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://futurism.com/stephen-hawking-automation-and-ai-is-going-to-decimate-middle-class-jobs/&#34;&gt;https://futurism.com/stephen-hawking-automation-and-ai-is-going-to-decimate-middle-class-jobs/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We are output bound.&lt;/p&gt;
+
+&lt;p&gt;IO bound. Input is better due to high input visual interface(eyes).&lt;/p&gt;
+
+&lt;p&gt;Direct cortical interface, neural lace.&lt;/p&gt;
+
+&lt;p&gt;High bandwidth neural interface, then you are no longer a &amp;lsquo;house cat&amp;rsquo;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The recruiting problem of Silicon Valley.</title>
+      <link>https://jeanrintoul.github.io/blog/sixth/</link>
+      <pubDate>Mon, 03 Oct 2016 15:59:13 -0400</pubDate>
+      
+      <guid>https://jeanrintoul.github.io/blog/sixth/</guid>
+      <description>&lt;p&gt;How do you attract your 20th employee at a start up in Silicon Valley?
+With huge salaries at established large companies, it&amp;rsquo;s hard to get good engineers to work at your start up when you raise a small seed round.&lt;/p&gt;
+
+&lt;p&gt;How can you build an early stage team in this highly competitive environment?&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Option 1(search overseas). This question was easier when scarcity kept people together, so of course one option is to recruit people from countries where there aren&amp;rsquo;t so many jobs, so you can find good people at lower rates. The ukraine, spain etc, where there are many great programmers or PhD graduates. Now however, you have a secondary problem which is team dynamics in different time zones and remote working.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Option 2(hire cheap people). This is a bad plan and will not get your product made. Go hard or go home. Unexperienced people are better when the company has a seeded set of highly experienced people who can be mentors, and the fresher people are willing to learn.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Option 3(inspire people). People should feel motivated to work on the problem you are trying to solve no matter what, but if its strong enough it&amp;rsquo;s also a way to recruit and keep good people. The trouble is getting to this stage where there is a clear lift off curve ahead.
+If it&amp;rsquo;s a really hot problem, good people will be attracted toward it if you can recruit loud enough. Then, you can give them a mixture of money and equity. You are asking each of your employees to make a similar bet on your company as you are, so the concept and execution better be good to keep them.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Option 4(pay fewer more experience people more). I&amp;rsquo;m a fan of this one, but the issue with it is VC&amp;rsquo;s often like to see large teams of impressive &amp;lsquo;sounding&amp;rsquo; people who aren&amp;rsquo;t necessarily that in reality. People selected for their apparent pedigree and not their innate awesomeness. A tricky slope - are you trying to impress the VC or make a great team? Ideally both, and the only way to do that is only keep those that are actually innately awesome.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A word on Team Dynamics.
+When only picking the &amp;lsquo;best&amp;rsquo; it can be easy to neglect diversity, or tendencies toward unconscious bias, but really, this is the only time in the company where you can really change it - at the start. So it&amp;rsquo;s more important in your selection of people than ever.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day I am advocating the near impossible - quality of hire is paramount, and this may be when you have least leverage to attract those people. It&amp;rsquo;s tough, but this is the challenge of creating a start up. If there is some way you can push it over the edge with 3 and 4, or already have viral growth ahead of hiring people, then great I think that is the path to getting the right people on board! Otherwise, right at the start, it&amp;rsquo;s going to be tough.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve seen putting a remote team together go wrong too. Despite how tempting it sounds, I think remote teams are some of the highest maintenance if you want to really build an integrated team where people work together. It&amp;rsquo;s tempting as prices are low for relatively experienced people but hard to generate team comraderie.&lt;/p&gt;
+
+&lt;p&gt;The future: A note on employer/employee loyalty: This appears to be decreasing, with employees only being present while they see immediate career growth and employers being more selfish. Who knows which came first, but it makes full-time employment slightly closer to being a consultant instead of a W-2. People complain about the rise of consulting meaning fewer people have healthcare covered by their employer, and consultants tend to be even more short term personal gain oriented than employees. Having too many consultants is terrible for a company, as it incentivizes people to just take money as fast as possible, without necessarily being aligned with long term incentives and shared goals. i.e. a consultant may accept work that&amp;rsquo;s not in the companies long term interest, as they want to make money, instead of advising the company against doing the work. Dangerous!&lt;/p&gt;
+
+&lt;p&gt;Land mines everywhere!&lt;/p&gt;
+
+&lt;p&gt;The future take 2: automate as many jobs as possible. This is a great solution, though again, VC&amp;rsquo;s and often large brands look for company headcount. It seems lots of heads in a room impresses people, but perhaps these are the wrong people?&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d automate as much as possible, have your top executives paid well and kept close, then have lots of fingers of potentially remote employees working on separate parts. The core team has to be strong and highly aligned and coordinated, otherwise this remote strategy goes wrong very easily.&lt;/p&gt;
+
+&lt;p&gt;In the future, I expect remote working software to improve though, making it an even more viable solution.  Augmented via VR perhaps..&lt;/p&gt;
+
+&lt;p&gt;The pressure to change the company structure at times and ways that don&amp;rsquo;t make for a good business&amp;hellip;. VCs often want to see certain hires, and expansion at various times, that don&amp;rsquo;t seem inline with what the company &amp;lsquo;actually&amp;rsquo; needs. Larger isn&amp;rsquo;t always better and forced sudden expansion can be devastating for quality of new hires and team culture and integration. However, the benefits of money are large as well. There is definitely a balance.&lt;/p&gt;
+
+&lt;p&gt;What can we learn from the open source model: Once people aren&amp;rsquo;t forced to work together, and are intentionally opting in, I believe  you can have a very different and positive work dynamic that is far more motivating.
+Stack overflow for instance, has a successful reputation system, people motivated by their desire to have status on the platform.&lt;/p&gt;
+
+&lt;p&gt;Can you get this voluntary positive environment with money involved? That&amp;rsquo;s unclear, as I think part of the positivity is people who contribute knowing they do it for free, and are giving it to other people in a highly visible environment. The work must be freely available and help the individuals in their personal career/relationships as much as possible.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
